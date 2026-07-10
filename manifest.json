@@ -1,33 +1,29 @@
 {
   "name": "آلة حاسبة رايقة",
   "short_name": "حاسبة",
-  "description": "آلة حاسبة أنيقة مع إشعارات للعمليات الحسابية",
-  "lang": "ar",
-  "dir": "rtl",
-  "start_url": "/OPOPOP/",
-  "scope": "/OPOPOP/",
+  "start_url": ".",
   "display": "standalone",
-  "orientation": "portrait",
   "background_color": "#667eea",
   "theme_color": "#667eea",
+  "description": "آلة حاسبة أنيقة",
   "icons": [
     {
-      "src": "icons/icon-192.png",
+      "src": "icon-192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
+      "type": "image/png"
     },
     {
-      "src": "icons/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
     {
-      "src": "icons/icon-512.png",
+      "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any"
+      "form_factor": "narrow"
     }
   ]
 }
